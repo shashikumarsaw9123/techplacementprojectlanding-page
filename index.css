@@ -1,0 +1,2400 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Moonrocks&family=Sancreek&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Moonrocks&family=Sancreek&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  height: 100px;
+  background-color: whitesmoke;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 10px 10px black;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+header h1 {
+  font-size: 2.6rem;
+  color: rgb(129, 196, 8);
+  font-family: "Rubik Moonrocks", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 20px;
+}
+header ul #home{
+  color:greenyellow;
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.801);
+  list-style: none;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+header ul #shop{
+  color:greenyellow;
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.801);
+  list-style: none;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+header ul #shop1{
+  color:greenyellow;
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.801);
+  list-style: none;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+header ul #con1{
+  color:greenyellow;
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.801);
+  list-style: none;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+header ul #home:hover{
+  color:rgb(129, 196, 8) ;
+  letter-spacing: 1.2px;
+}
+header ul #shop:hover{
+  color:rgb(129, 196, 8) ;
+  letter-spacing: 1.2px;
+}
+header ul #shop1:hover{
+  color:rgb(129, 196, 8) ;
+  letter-spacing: 1.2px;
+}
+header ul #con1:hover{
+  color:rgb(129, 196, 8) ;
+  letter-spacing: 1.2px;
+}
+
+
+
+
+i {
+  gap: 30px;
+  font-size: 30px;
+  margin: 10px;
+}
+header .himbermain {
+  display: none;
+}
+header .himbermain #himber {
+  border: 2px solid blanchedalmond;
+  height: 30px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  }
+header .himbermain #himber .line {
+  height: 4px;
+  width: 28px;
+  background-color: rgb(34, 246, 19);
+  border-radius: 20px;
+  margin: 2px;
+}
+#nav {
+  margin-top: 100px;
+  margin-left: 150px;
+  display: none;
+  position:fixed;
+  background-color: aqua;
+  z-index: 100;
+}
+ 
+#nav l {
+  color: rgb(34, 246, 19);
+  letter-spacing: 1.2px;
+}
+ #nav ul {
+  font-size: 20px;
+  color: rgba(16, 250, 106, 0.801);
+  list-style: none;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  }
+  #nav  ul #homl{
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.801);
+    
+    list-style: none;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    }
+    #nav ul #shop1a{
+      font-size: 20px;
+      color: rgba(128, 128, 128, 0.801);
+      list-style: none;
+      margin: 10px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    
+      }
+      #nav ul #shop1b{
+        font-size: 20px;
+        color: rgba(128, 128, 128, 0.801);
+        list-style: none;
+        margin: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+
+        }
+        #nav ul #con1c{
+          font-size: 20px;
+          color: rgba(128, 128, 128, 0.801);
+          list-style: none;
+          margin: 10px;
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        
+          }
+        
+      
+    
+  
+main #big {
+  margin-top: 100px;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #big .small {
+  height: 500px;
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #big .small .card {
+  height: 400px;
+  width: 550px;
+}
+main #big .small .card .ha1 {
+  font-size: 24px;
+  color: rgb(255, 181, 36);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 60px;
+}
+main #big .small .card .ha2 {
+  font-size: 50px;
+  color: rgb(129, 196, 8);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 60px;
+  margin-top: 20px;
+}
+main #big .small .card .inpbtn {
+  display: flex;
+  height: 60px;
+  width: 400px;
+  border: 2px solid orange;
+  border-radius: 30px;
+  margin-top: 60px;
+}
+main #big .small .card .inpbtn input {
+  height: 100%;
+  width: 260px;
+  border-radius: 30px;
+  font-size: 18px;
+  border: none;
+  padding-left: 20px;
+}
+main #big .small .card .inpbtn button {
+  height: 100%;
+  width: 140px;
+  border-radius: 30px;
+  border-left: 2px solid orange;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  background-color: rgb(129, 196, 8);
+  color: aliceblue;
+  font-size: 16px;
+}
+
+main #big .small .card1 {
+  height: 500px;
+  width: 460px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+main #big .small .card1 #btnas{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  position: relative;
+  right: 404px;
+  border: none;
+  
+  background-color: greenyellow;
+  color: red;
+
+
+}
+main #big .small .card1 #btnbk{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  position: relative;
+  right: 56px;
+  border: none;
+  background-color: red;
+  color: greenyellow;
+
+
+}
+
+main #big .small .card1 #divimg {
+  height: 260px;
+  width: 420px;
+  display: flex;
+
+  
+  overflow: hidden;
+  border-radius: 10px;
+ }
+main #big .small .card1 #divimg #img1 {
+  flex-shrink: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./hero-img-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-color: orange;
+}
+main #big .small .card1 #divimg #img2 {
+  flex-shrink: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./hero-img-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main #big2{
+  height: 1100px;
+  width: 100%;
+  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+  header ul .cono{
+  background-color: red;
+  height: 20px;
+}
+main #big2 .small2{
+  height: 1000px;
+  width: 85%;
+  
+  
+  flex-wrap: wrap;
+}
+main #big2 .small2 .clickbtn{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+main #big2 .small2 .clickbtn button{
+  height: 40px;
+  width: 140px;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+main #big2 .small2 .clickbtn #btn1{
+  background-color: orange;
+  color: white;
+} 
+main #big2 .small2 .clickbtn h1{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 45px;
+  
+  
+}
+main #big2 .small2 #cardall{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+main #big2 .small2 #cardall .carda{
+  height: 370px;
+  width:250px ;
+  border: 1px solid  orange  ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  gap: 10px;
+}
+main #big2 .small2 #cardall .carda .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #cardall .carda .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #cardall .carda .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #cardall .carda .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardall .carda .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardall .carda .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #cardall .carda .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #cardall .carda .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #cardall .carda .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+main #big2 .small2 #cardall .cardb{
+  height: 370px;
+  width:250px ;
+  border: 1px solid orange ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+
+}
+main #big2 .small2 #cardall .cardb .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #cardall .cardb .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #cardall .cardb .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #cardall .cardb .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardall .cardb .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardall .cardb .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #cardall .cardb .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #cardall .cardb .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #cardall .cardb .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+
+main #big2 .small2 #cardall .cardc{
+  height: 370px;
+  width:250px ;
+  border: 1px solid orange ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+
+}
+main #big2 .small2 #cardall .cardc .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #cardall .cardc .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #cardall .cardc .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #cardall .cardc .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardall .cardc .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardall .cardc .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #cardall .cardc .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #cardall .cardc .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+main #big2 .small2 #cardall .cardc .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+
+
+main #big2 .small2 #cardall .cardd{
+  height: 370px;
+  width:250px ;
+  border: 1px solid orange ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+
+}
+main #big2 .small2 #cardall .cardd .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #cardall .cardd .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #cardall .cardd .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #cardall .cardd .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardall .cardd .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardall .cardd .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #cardall .cardd .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #cardall .cardd .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #cardall .cardd .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+
+main #big2 .small2 #cardalla{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  
+}
+main #big2 .small2 #cardalla .carda{
+  height: 370px;
+  width:250px ;
+  border: 1px solid  orange  ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  gap: 10px;
+}
+main #big2 .small2 #cardalla .carda .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #cardalla .carda .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #cardalla .carda .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #cardalla .carda .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardalla .carda .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardalla .carda .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #cardalla .carda .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #cardalla .carda .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #cardalla .carda .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+main #big2 .small2 #cardalla .cardb{
+  height: 370px;
+  width:250px ;
+  border: 1px solid orange ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+
+}
+main #big2 .small2 #cardalla .cardb .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #cardalla .cardb .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #cardalla .cardb .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #cardalla .cardb .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardalla .cardb .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardalla .cardb .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #cardalla .cardb .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #cardalla .cardb .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #cardalla .cardb .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+
+main #big2 .small2 #cardalla .cardc{
+  height: 370px;
+  width:250px ;
+  border: 1px solid orange ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+
+}
+main #big2 .small2 #cardalla .cardc .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #cardalla .cardc .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #cardalla .cardc .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #cardalla .cardc .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardalla .cardc .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardalla .cardc .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #cardalla .cardc .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #cardalla .cardc .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+main #big2 .small2 #cardalla .cardc .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+
+
+main #big2 .small2 #cardalla .cardd{
+  height: 370px;
+  width:250px ;
+  border: 1px solid orange ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+
+}
+main #big2 .small2 #cardalla .cardd .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #cardalla .cardd .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #cardalla .cardd .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #cardalla .cardd .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardalla .cardd .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #cardalla .cardd .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #cardalla .cardd .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #cardalla .cardd .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #cardalla .cardd .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+main #big2 .small2 #vegicard{
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  display: none;
+  
+}
+main #big2 .small2 #vegicard .carda{
+  height: 370px;
+  width:250px ;
+  border: 1px solid  orange  ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  margin-left: 10px;
+}
+main #big2 .small2 #vegicard .carda .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #vegicard .carda .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #vegicard .carda .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #vegicard .carda .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #vegicard .carda .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #vegicard .carda .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #vegicard .carda .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #vegicard .carda .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #vegicard .carda .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+
+
+
+main #big2 .small2 #vegicard1{
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  display: none;
+  
+  
+}
+main #big2 .small2 #vegicard1 .carda{
+  height: 370px;
+  width:250px ;
+  border: 1px solid  orange  ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  margin-left: 10px;
+}
+main #big2 .small2 #vegicard1 .carda .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #vegicard1 .carda .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #vegicard1 .carda .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #vegicard1 .carda .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #vegicard1 .carda .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #vegicard1 .carda .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #vegicard1 .carda .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #vegicard1 .carda .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #vegicard1 .carda .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+
+
+
+main #big2 .small2 #vegicard2{
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  display: none;
+  
+  
+}
+main #big2 .small2 #vegicard2 .carda{
+  height: 370px;
+  width:250px ;
+  border: 1px solid  orange  ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  margin-left: 10px;
+}
+main #big2 .small2 #vegicard2 .carda .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #vegicard2 .carda .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #vegicard2 .carda .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #vegicard2 .carda .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #vegicard2 .carda .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #vegicard2 .carda .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #vegicard2 .carda .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #vegicard2 .carda .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #vegicard2 .carda .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+
+main #big2 .small2 #vegicard3{
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  display: none;
+  
+  
+}
+main #big2 .small2 #vegicard3 .carda{
+  height: 370px;
+  width:250px ;
+  border: 1px solid  orange  ;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  margin-left: 10px;
+}
+main #big2 .small2 #vegicard3 .carda .divimg{
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  
+  
+}
+main #big2 .small2 #vegicard3 .carda .divimg img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  
+}
+main #big2 .small2 #vegicard3 .carda .divimg img{
+  height: 100%;
+  width: 100%;
+}
+main #big2 .small2 #vegicard3 .carda .divtext h1{
+  font-size: 27px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #vegicard3 .carda .divtext .pa{
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+ 
+
+}
+main #big2 .small2 #vegicard3 .carda .divtext .pb{
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+  
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+  
+}
+main #big2 .small2 #vegicard3 .carda .divtext button{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: transparent;
+  font-size: 17px;
+  color:rgb(129, 196, 8) ;
+  margin-left: 25px;
+}
+main #big2 .small2 #vegicard3 .carda .divtext button:hover{
+  background-color: orange;
+  color: white;
+}
+
+main #big2 .small2 #vegicard3 .carda .divtext button .ia{
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+}
+ #big3{
+  height: 600px;
+  
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+ #big3 .small3{
+  height: 550px;
+  width: 90%;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+} 
+#big3 .small3    .textfirst{
+  height: 400px;
+  width: 600px;
+  
+}
+#big3 .small3    .textfirst .ha{
+  font-size: 50px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 850;
+  font-style: normal;
+ 
+}
+#big3 .small3    .textfirst .hb{
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.815);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+#big3 .small3    .textfirst .pa{
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.815);
+  font-family: "Poppins", sans-serif;
+  font-weight: 310;
+  font-style: normal;
+ 
+}
+#big3 .small3    .textfirst .btn{
+  margin-top: 20px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.815);
+  font-family: "Poppins", sans-serif;
+  font-weight: 310;
+  font-style: normal;
+  height: 60px;
+  width: 120px;
+  background-color: transparent;
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 30px;
+ 
+}
+
+
+
+
+#big3 .small3  .imgsecond{
+  height: 500px;
+  width: 500px;
+  
+  
+}
+#big3 .small3  .imgsecond img{
+  height:450px ;
+  width:100%;
+  
+}
+#big3 .small3  .imgsecond .circle{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  bottom: 450px;
+  text-align: center;
+  
+
+  }
+  #big3 .small3  .imgsecond .circle h1{
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.815);
+  
+  font-weight: 1300;
+  font-style: normal;
+  position: relative;
+  top: 14px;
+  right: 30px;
+
+  }
+  #big3 .small3  .imgsecond .circle .pa{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.815);
+  
+  font-weight: 1700;
+  font-style: normal;
+  position: relative;
+  bottom: 65px;
+  left: 20px;
+  
+
+  }
+  #big3 .small3  .imgsecond .circle .pb{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.815);
+  
+  font-weight: 1700;
+  font-style: normal;
+  position: relative;
+  bottom: 80px;
+  left: 10px;
+  
+
+  }
+  #big4{
+    height: 850px;
+    width: 100%;
+    
+    
+    }
+  #big4 .small4{
+    height: 200px;
+    width: 100%;
+    background-image: url(https://demo.htmlcodex.com/2824/vegetable-website-template/img/cart-page-header-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+  font-weight:800;
+  font-style: normal;
+ 
+    
+
+  }
+  #big4 .small5{
+    height: 650px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    
+  }
+
+  #big4 .small5 .small6{
+     
+   
+    height: 550px;
+    width: 80%;
+    border: none;
+    background-color:rgb(244, 246, 248);
+    border-radius: 14px;
+
+
+  }
+  #big4 .small5 .small6 h1{
+    color:rgb(129, 196, 8) ;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+  font-weight:600;
+  font-style: normal;
+  text-align: center;
+ 
+
+  }
+  #big4 .small5 .small6 .pa{
+    color:rgba(0, 0, 0, 0.788) ;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  font-weight:250;
+  font-style: normal;
+  text-align: center;
+  
+
+  }
+  #big4 .small5 .small6 .pb{
+    color:rgb(129, 196, 8) ;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+  font-weight:400;
+  font-style: normal;
+  text-align: center;
+ 
+
+  }
+  #big4 .small5 .small6 form{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 30px;
+    height: 400px;
+    width: 1000px;
+    margin-left: 40px;
+    justify-content: space-between;
+    }
+  #big4 .small5 .small6 form .inputdiv  .inpa{
+    height: 50px;
+    width: 490px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  outline: none;
+ 
+
+
+  }
+  #big4 .small5 .small6 form .inputdiv  .inpb{
+    height: 50px;
+    width: 490px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  outline: none;
+  margin-top: 20px;
+ 
+
+
+  }
+  
+  #big4 .small5 .small6 form .inputdiv  .inpc{
+    height: 130px;
+    width: 490px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  outline: none;
+  margin-top: 20px;
+  
+ 
+
+
+  }
+  #big4 .small5 .small6 form .inputdiv  button{
+    height: 50px;
+    width: 490px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  outline: none;
+  margin-top: 20px;
+  color:rgb(129, 196, 8) ;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+font-weight:400;
+font-style: normal;
+text-align: center;
+background-color: white;
+border: 2px solid orange;
+
+ 
+
+
+  }
+  #big4 .small5 .small6 form .inputdiv  button:hover{
+    background-color: orange;
+    color: white;
+  }
+  
+  #big4 .small5 .small6 form .textdiv .diva{
+    height: 110px;
+    width: 490px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  background-color: white;
+  
+  
+
+  }
+  #big4 .small5 .small6 form .textdiv .diva .ha{
+    font-family: "Poppins", sans-serif;
+  font-size: 27px;
+font-weight:500;
+font-style: normal;
+text-align: start;
+color: black;
+padding-top: 20px;
+padding-left: 10px;
+
+  }
+  #big4 .small5 .small6 form .textdiv .diva p{
+    font-family: "Poppins", sans-serif;
+  font-size: 18px;
+font-weight:300;
+font-style: normal;
+text-align: start;
+color: black;
+
+padding-left: 60px;
+
+  }
+  
+  #big4 .small5 .small6 form .textdiv .divb{
+    height: 110px;
+    width: 490px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  background-color: white;
+  margin-top: 10px;
+  
+  
+
+  }
+  #big4 .small5 .small6 form .textdiv .divb .ha{
+    font-family: "Poppins", sans-serif;
+  font-size: 27px;
+font-weight:500;
+font-style: normal;
+text-align: start;
+color: black;
+padding-top: 20px;
+padding-left: 10px;
+
+  }
+  #big4 .small5 .small6 form .textdiv .divb p{
+    font-family: "Poppins", sans-serif;
+  font-size: 18px;
+font-weight:300;
+font-style: normal;
+text-align: start;
+color: black;
+
+padding-left: 60px;
+
+  }
+  
+  #big4 .small5 .small6 form .textdiv .divc{
+    height: 110px;
+    width: 490px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  background-color: white;
+  margin-top: 10px;
+  
+  
+
+  }
+  #big4 .small5 .small6 form .textdiv .divc .ha{
+    font-family: "Poppins", sans-serif;
+  font-size: 27px;
+font-weight:500;
+font-style: normal;
+text-align: start;
+color: black;
+padding-top: 20px;
+padding-left: 10px;
+
+  }
+  #big4 .small5 .small6 form .textdiv .divc p{
+    font-family: "Poppins", sans-serif;
+  font-size: 18px;
+font-weight:300;
+font-style: normal;
+text-align: start;
+color: black;
+
+padding-left: 60px;
+
+  }
+  
+
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+footer{
+  height: 600px;
+  width: 100%;
+  background-color: rgb(69, 89, 91);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #big5{
+  height: 550px;
+  width: 90%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+footer #big5 .small7{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer #big5 .small7  .a1  h1{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: chartreuse;
+  
+font-weight:300;
+font-style: normal;
+
+
+}
+footer #big5 .small7 .a1 p{
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: orange;
+  line-height: 5px;
+  
+font-weight:300;
+font-style: normal;
+
+
+}
+footer #big5 .small7 .a2{
+  height: 50px;
+  width: 560px;
+
+  border-radius: 20px;
+  
+}
+footer #big5 .small7 .a2 input{
+  height: 50px;
+  width: 380px;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  padding-left: 20px;
+}
+footer #big5 .small7 .a2 input:hover,button{
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+ }
+footer #big5 .small7 .a2 button{
+  height: 45px;
+  width: 140px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  right: 10px;
+  background-color: chartreuse;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+font-weight:400;
+font-style: normal;
+
+  
+  
+}
+footer #big5 .small7 .a2 button:hover{
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  background-color: orange;
+  color: white;
+
+}
+footer #big5 .small7 i{
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+}
+footer #big5 .small7 i:hover{
+  background-color: orange;
+  border: 1px solid rgb(7, 248, 7);
+}
+footer #big5 .small8{
+  height: 400px;
+  width: 89%;
+  border-top: 1px solid orange;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer #big5 .small8 h1{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+font-weight:400;
+font-style: normal;
+color:rgb(129, 196, 8) ;
+
+
+}
+footer #big5 .small8 h1:hover{
+  color: orange;
+}
+footer #big5 .small8 .pa{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+font-weight:400;
+font-style: normal;
+color:rgba(128, 128, 128, 0.87) ;
+
+
+}
+footer #big5 .small8 .pa:hover{
+  color:orange ;
+}
+footer #big5 .small8 .pb{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+font-weight:400;
+font-style: normal;
+color:rgba(128, 128, 128, 0.87) ;
+
+
+}
+footer #big5 .small8 .pb:hover{
+  color:orange ;
+}
+
+footer #big5 .small8 .pc{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+font-weight:400;
+font-style: normal;
+color:rgba(128, 128, 128, 0.87) ;
+
+
+}
+footer #big5 .small8 .pc:hover{
+  color:orange ;
+}
+
+footer #big5 .small8 .pd{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+font-weight:400;
+font-style: normal;
+color:rgba(128, 128, 128, 0.87) ;
+
+
+}
+footer #big5 .small8 .pd:hover{
+  color:orange ;
+}
+
+footer #big5 .small8 .pe{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+font-weight:400;
+font-style: normal;
+color:rgba(128, 128, 128, 0.87) ;
+
+
+}
+footer #big5 .small8 .pe:hover{
+  color:orange ;
+}
+
+footer #big5 .small8 .pf{
+
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+font-weight:400;
+font-style: normal;
+color:rgba(128, 128, 128, 0.87) ;
+
+
+}
+footer #big5 .small8 .pf:hover{
+  color:orange ;
+}
+footer #big5 .small8 button{
+  margin-top: 20px;
+  height: 50px;
+  width: 140px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+font-weight:400;
+font-style: normal;
+color:rgba(128, 128, 128, 0.87) ;
+border: 1px solid orange;
+border-radius: 20px;
+background-color: transparent;
+color: chartreuse;
+
+}
+footer #big5 .small8 button:hover{
+  background-color: orange;
+  color: white;
+  border:1px solid green;
+}
+footer #big5 .small8 .divtext4 .divimg{
+  margin-top: 30px;
+  height: 30px;
+  width: 236px;
+  background-image: url(./payment.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 1300px) {
+   main #big2{
+    height: 1750px;
+  }
+  main #big2 .small2{
+    height: 1650px;
+  }
+  #big3 .small3{
+    height: 840px;
+
+  }
+  #big3{
+    height: 880px;
+  }
+  #big4 .small5 .small6 form{
+    flex-wrap: wrap;
+    /* display: flex; */
+    margin-top: 30px;
+    height: 400px;
+    width: 900px;
+    margin-left: 40px;
+    justify-content:space-evenly;
+    }
+ 
+  #big4 .small5 .small6 form .inputdiv  .inpa{
+    width:360px ;
+  }
+  #big4 .small5 .small6 form .inputdiv  .inpb{
+    width:360px ;
+  }
+  #big4 .small5 .small6 form .inputdiv  .inpc{
+    width:360px ;
+  }
+  #big4 .small5 .small6 form .inputdiv  button{
+    width:370px ;
+  }
+  #big4 .small5 .small6 form .textdiv .diva{
+    width: 360px;
+  }
+  #big4 .small5 .small6 form .textdiv .divb{
+    width: 360px;
+  }
+  #big4 .small5 .small6 form .textdiv .divc{
+    width: 360px;
+  }
+  footer  {
+    height: 700px;
+  }
+  footer #big5 {
+    height: 650px;
+  }
+  footer #big5 .small8{
+   height: 500px;
+  }
+
+
+ 
+  
+}
+@media screen and (max-width: 1100px) {
+  header ul li {
+    font-size: 17px;
+    color: rgba(128, 128, 128, 0.801);
+    list-style: none;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  main #big .small .card1 {
+    height: 360px;
+    width: 460px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #big .small .card1 .divimg {
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    overflow-x: scroll;
+    border-radius: 10px;
+  }
+  main #big .small .card1 .divimg .img1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(./hero-img-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-color: orange;
+  }
+  main #big .small .card1 .divimg .img2 {
+    height: 100%;
+    width: 100%;
+    background-image: url(./hero-img-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  main #big2 {
+    height: 1800px;
+  }
+  main #big2 .small2{
+    height: 1700px;
+
+  }
+ 
+  main #big2 .small2 #cardall .cardc{
+    margin-top: 10px;
+  }
+
+  main #big2 .small2 #cardall .cardd{
+    margin-top: 10px;
+  }
+  main #big2 .small2 #cardalla .cardd{
+    margin-top: 10px;
+  }
+  main #big2 .small2 #cardalla .cardc{
+    margin-top: 10px;
+  }
+  #big3 .small3{
+    height: 850px;
+  }
+
+  
+  #big3{
+    height: 1000px;
+  }
+  #big4{
+    height: 1400px;
+  }
+  #big4 .small5{
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #big4 .small5 .small6{
+    height: 1100px;
+    }
+  #big4 .small5 .small6 form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    height: 900px;
+    width: 1000px;
+    margin-left: 40px;
+   
+    }
+    #big4 .small5 .small6 form .inputdiv{
+      margin-right: 450px;
+    }
+    #big4 .small5 .small6 form .textdiv{
+      margin-right: 450px;
+    }
+    footer #big5 .small7{
+      height: 200px;
+    }
+ 
+ 
+
+
+
+}
+@media screen and (max-width: 800px) {
+  header ul {
+    display: none;
+  }
+  header .himbermain {
+    display: block;
+  }
+  main #big {
+    
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main #big .small {
+    height: 500px;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main #big .small .card .inpbtn {
+    display: flex;
+    height: 50px;
+    width: 400px;
+    border: 2px solid orange;
+    border-radius: 30px;
+    margin-top: 60px;
+  }
+  main #big .small .card1 {
+    margin-top: 20px;
+    height: 30px;
+    width: 460px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #big2 {
+    height: 1800px;
+  }
+  main #big2 .small2{
+    height: 1700px;
+
+  }
+ 
+}
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+    color: rgb(129, 196, 8);
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  main #big .small .card {
+    height: 400px;
+    width: 350px;
+  }
+  main #big .small .card .ha1 {
+    font-size: 24px;
+    color: rgb(255, 181, 36);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 60px;
+  }
+  main #big .small .card .ha2 {
+    font-size: 30px;
+    color: rgb(129, 196, 8);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 60px;
+    margin-top: 20px;
+  }
+  main #big .small .card .inpbtn {
+    display: flex;
+    height: 40px;
+    width: 250px;
+    border: 2px solid orange;
+    border-radius: 30px;
+    margin-top: 60px;
+  }
+  main #big .small .card .inpbtn input {
+    height: 100%;
+    width: 160px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+    padding-left: 20px;
+  }
+  main #big .small .card .inpbtn button {
+    height: 100%;
+    width: 90px;
+    border-radius: 30px;
+    border-left: 2px solid orange;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background-color: rgb(129, 196, 8);
+    color: aliceblue;
+    font-size: 16px;
+  }
+  main #big2 {
+    height: 3500px;
+  }
+  main #big2 .small2{
+    height: 3400px;
+
+  }
+  main #big2 .small2 #cardall .carda{
+    margin-top: 10px;
+  }
+
+  main #big2 .small2 #cardall .cardb{
+    margin-top: 10px;
+  }
+  main #big2 .small2 #cardalla .cardb{
+    margin-top: 10px;
+  }
+  main #big2 .small2 #vegicard .carda{
+    margin-top: 10px;
+  }
+  main #big2 .small2 #vegicard1 .carda{
+    margin-top: 10px;
+  }
+  main #big2 .small2 #vegicard2 .carda{
+    margin-top: 10px;
+  }
+  main #big2 .small2 #vegicard3 .carda{
+    margin-top: 10px;
+  }
+  #big3 .small3  .imgsecond img{
+    margin-top: 30px;
+    height:450px ;
+    width:100%;
+    
+  }
+  #big3 .small3{
+    height: 850px;
+  }
+
+  
+  #big3{
+    height: 1000px;
+  }
+  #big4 .small5 .small6 form .inputdiv  .inpa{
+    width:280px ;
+  }
+  #big4 .small5 .small6 form .inputdiv  .inpb{
+    width:280px ;
+  }
+  #big4 .small5 .small6 form .inputdiv  .inpc{
+    width:280px ;
+  }
+  #big4 .small5 .small6 form .inputdiv  button{
+    width:280px ;
+  }
+  #big4 .small5 .small6 form .textdiv .diva{
+    width: 280px;
+  }
+  #big4 .small5 .small6 form .textdiv .divb{
+    width: 280px;
+  }
+  #big4 .small5 .small6 form .textdiv .divc{
+    width: 280px;
+  }
+  #big4 .small5 .small6 form .inputdiv{
+    margin-right: 730px;
+  }
+  #big4 .small5 .small6 form .textdiv{
+    margin-right: 730px;
+  }
+  footer #big5 .small7 .a2{
+    width:380 ;
+  }
+  footer #big5 .small7 .a2 input{
+    height: 50px;
+    width: 200px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  footer #big5 .small7 .a2 button{
+    
+    width: 100px;
+    font-size: 13px;
+    position: relative;
+    bottom: 5px;
+    }
+    footer  {
+      height: 1300px;
+    }
+    footer #big5 {
+      height: 1200px;
+    }
+    footer #big5 .small8{
+     height: 960px;
+    }
+  
+  
+  
+
+
+
+
+
+
+
+
+}
